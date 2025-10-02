@@ -1,0 +1,107 @@
+{
+  "module": "history",
+  "title_ar": "التاريخ السوري",
+  "title_en": "Syrian History",
+  "questions": [
+    {
+      "id": "history_001",
+      "question_ar": "ما هي ألوان العلم السوري الحالي؟",
+      "question_en": "What are the colors of the current Syrian flag?",
+      "options_ar": [
+        "أحمر، أبيض، أسود مع نجمتين خضراوين",
+        "أحمر، أبيض، أخضر مع نجمة واحدة",
+        "أسود، أبيض، أخضر مع هلال",
+        "أزرق، أبيض، أحمر مع شمس"
+      ],
+      "options_en": [
+        "Red, white, black with two green stars",
+        "Red, white, green with one star",
+        "Black, white, green with crescent",
+        "Blue, white, red with sun"
+      ],
+      "correct_answer": 0,
+      "difficulty": "easy",
+      "category": "flags_symbols"
+    },
+    {
+      "id": "history_002",
+      "question_ar": "في أي عام نالت سوريا استقلالها عن فرنسا؟",
+      "question_en": "In which year did Syria gain independence from France?",
+      "options_ar": [
+        "1946",
+        "1943",
+        "1950",
+        "1941"
+      ],
+      "options_en": [
+        "1946",
+        "1943",
+        "1950",
+        "1941"
+      ],
+      "correct_answer": 0,
+      "difficulty": "easy",
+      "category": "independence"
+    },
+    {
+      "id": "history_003",
+      "question_ar": "ما اسم المملكة القديمة التي كانت عاصمتها دمشق؟",
+      "question_en": "What was the name of the ancient kingdom whose capital was Damascus?",
+      "options_ar": [
+        "مملكة آرام دمشق",
+        "مملكة الحيرة",
+        "مملكة تدمر",
+        "مملكة الأنباط"
+      ],
+      "options_en": [
+        "Kingdom of Aram-Damascus",
+        "Kingdom of Al-Hirah",
+        "Kingdom of Palmyra",
+        "Nabataean Kingdom"
+      ],
+      "correct_answer": 0,
+      "difficulty": "moderate",
+      "category": "ancient_history"
+    },
+    {
+      "id": "history_004",
+      "question_ar": "من كانت الملكة الشهيرة التي حكمت تدمر في القرن الثالث الميلادي؟",
+      "question_en": "Who was the famous queen who ruled Palmyra in the 3rd century AD?",
+      "options_ar": [
+        "الزباء (زنوبيا)",
+        "كليوباترا",
+        "بلقيس",
+        "شجرة الدر"
+      ],
+      "options_en": [
+        "Al-Zabba (Zenobia)",
+        "Cleopatra",
+        "Bilqis",
+        "Shajarat al-Durr"
+      ],
+      "correct_answer": 0,
+      "difficulty": "moderate",
+      "category": "ancient_history"
+    },
+    {
+      "id": "history_005",
+      "question_ar": "في أي معركة هزم صلاح الدين الأيوبي الصليبيين عام 1187؟",
+      "question_en": "In which battle did Saladin defeat the Crusaders in 1187?",
+      "options_ar": [
+        "معركة حطين",
+        "معركة عين جالوت",
+        "معركة اليرموك",
+        "معركة مرج دابق"
+      ],
+      "options_en": [
+        "Battle of Hattin",
+        "Battle of Ain Jalut",
+        "Battle of Yarmouk",
+        "Battle of Marj Dabiq"
+      ],
+      "correct_answer": 0,
+      "difficulty": "hard",
+      "category": "wars_battles"
+    }
+  ]
+}

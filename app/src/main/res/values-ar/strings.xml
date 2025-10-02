@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- App Name -->
+    <string name="app_name">سوريا تريفيا</string>
+
+    <!-- Home Screen -->
+    <string name="home_title">سوريا تريفيا</string>
+    <string name="home_subtitle">اختبر معلوماتك</string>
+    <string name="module_culture">الثقافة</string>
+    <string name="module_history">التاريخ</string>
+    <string name="module_culture_desc">الأغاني والمسلسلات والثقافة السورية</string>
+    <string name="module_history_desc">الحروب والأعلام والأحداث التاريخية</string>
+    <string name="settings">الإعدادات</string>
+
+    <!-- Difficulty Screen -->
+    <string name="difficulty_title">اختر مستوى الصعوبة</string>
+    <string name="difficulty_easy">سهل</string>
+    <string name="difficulty_moderate">متوسط</string>
+    <string name="difficulty_hard">صعب</string>
+    <string name="difficulty_easy_desc">مثالي للمبتدئين</string>
+    <string name="difficulty_moderate_desc">تحدى نفسك</string>
+    <string name="difficulty_hard_desc">لمحترفي الثقافة</string>
+
+    <!-- Quiz Screen -->
+    <string name="quiz_progress">السؤال %1$d من %2$d</string>
+    <string name="quiz_next">التالي</string>
+    <string name="quiz_submit">إرسال الإجابة</string>
+    <string name="quiz_correct">صحيح!</string>
+    <string name="quiz_incorrect">خطأ</string>
+    <string name="quiz_correct_answer">الإجابة الصحيحة هي: %1$s</string>
+
+    <!-- Results Screen -->
+    <string name="results_title">انتهى الاختبار!</string>
+    <string name="results_score">نتيجتك</string>
+    <string name="results_score_display">%1$d / %2$d</string>
+    <string name="results_percentage">%1$d%%</string>
+    <string name="results_excellent">ممتاز! أنت خبير بالثقافة السورية!</string>
+    <string name="results_great">عمل رائع! تعرف الثقافة السورية جيداً!</string>
+    <string name="results_good">جهد جيد! استمر في التعلم!</string>
+    <string name="results_keep_trying">استمر في المحاولة! ستتحسن مع الممارسة!</string>
+    <string name="results_play_again">العب مرة أخرى</string>
+    <string name="results_home">الصفحة الرئيسية</string>
+
+    <!-- Settings Screen -->
+    <string name="settings_title">الإعدادات</string>
+    <string name="settings_language">اللغة</string>
+    <string name="settings_language_arabic">العربية</string>
+    <string name="settings_language_english">English</string>
+
+    <!-- Common -->
+    <string name="back">رجوع</string>
+    <string name="loading">جار التحميل...</string>
+    <string name="error">خطأ</string>
+    <string name="error_loading_questions">فشل تحميل الأسئلة. يرجى المحاولة مرة أخرى.</string>
+</resources>

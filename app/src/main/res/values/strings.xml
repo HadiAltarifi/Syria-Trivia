@@ -1,0 +1,54 @@
+<resources>
+    <!-- App Name -->
+    <string name="app_name">Syria Trivia</string>
+
+    <!-- Home Screen -->
+    <string name="home_title">Syria Trivia</string>
+    <string name="home_subtitle">Test Your Knowledge</string>
+    <string name="module_culture">Culture</string>
+    <string name="module_history">History</string>
+    <string name="module_culture_desc">Songs, TV shows, and Syrian culture</string>
+    <string name="module_history_desc">Wars, flags, and historical events</string>
+    <string name="settings">Settings</string>
+
+    <!-- Difficulty Screen -->
+    <string name="difficulty_title">Select Difficulty</string>
+    <string name="difficulty_easy">Easy</string>
+    <string name="difficulty_moderate">Moderate</string>
+    <string name="difficulty_hard">Hard</string>
+    <string name="difficulty_easy_desc">Perfect for beginners</string>
+    <string name="difficulty_moderate_desc">Challenge yourself</string>
+    <string name="difficulty_hard_desc">For trivia masters</string>
+
+    <!-- Quiz Screen -->
+    <string name="quiz_progress">Question %1$d of %2$d</string>
+    <string name="quiz_next">Next</string>
+    <string name="quiz_submit">Submit Answer</string>
+    <string name="quiz_correct">Correct!</string>
+    <string name="quiz_incorrect">Incorrect</string>
+    <string name="quiz_correct_answer">The correct answer is: %1$s</string>
+
+    <!-- Results Screen -->
+    <string name="results_title">Quiz Complete!</string>
+    <string name="results_score">Your Score</string>
+    <string name="results_score_display">%1$d / %2$d</string>
+    <string name="results_percentage">%1$d%%</string>
+    <string name="results_excellent">Excellent! You\'re a Syrian trivia master!</string>
+    <string name="results_great">Great job! You know your Syrian culture well!</string>
+    <string name="results_good">Good effort! Keep learning!</string>
+    <string name="results_keep_trying">Keep trying! You\'ll improve with practice!</string>
+    <string name="results_play_again">Play Again</string>
+    <string name="results_home">Home</string>
+
+    <!-- Settings Screen -->
+    <string name="settings_title">Settings</string>
+    <string name="settings_language">Language</string>
+    <string name="settings_language_arabic">العربية</string>
+    <string name="settings_language_english">English</string>
+
+    <!-- Common -->
+    <string name="back">Back</string>
+    <string name="loading">Loading...</string>
+    <string name="error">Error</string>
+    <string name="error_loading_questions">Failed to load questions. Please try again.</string>
+</resources>

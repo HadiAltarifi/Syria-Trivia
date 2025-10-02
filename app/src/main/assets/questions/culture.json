@@ -1,0 +1,107 @@
+{
+  "module": "culture",
+  "title_ar": "الثقافة السورية",
+  "title_en": "Syrian Culture",
+  "questions": [
+    {
+      "id": "culture_001",
+      "question_ar": "من هو المطرب السوري الذي لُقب بـ 'سلطان الطرب'؟",
+      "question_en": "Which Syrian singer was known as the 'Sultan of Tarab'?",
+      "options_ar": [
+        "صباح فخري",
+        "فهد بلان",
+        "جورج وسوف",
+        "عاصي الحلاني"
+      ],
+      "options_en": [
+        "Sabah Fakhri",
+        "Fahd Ballan",
+        "George Wassouf",
+        "Assi El Hallani"
+      ],
+      "correct_answer": 0,
+      "difficulty": "easy",
+      "category": "music"
+    },
+    {
+      "id": "culture_002",
+      "question_ar": "ما هو اسم المسلسل السوري الشهير الذي يتحدث عن الحارة الشامية؟",
+      "question_en": "What is the name of the famous Syrian TV series about the Damascene neighborhood?",
+      "options_ar": [
+        "باب الحارة",
+        "مرايا",
+        "بقعة ضوء",
+        "الخربة"
+      ],
+      "options_en": [
+        "Bab Al-Hara",
+        "Maraya",
+        "Buq'at Daw'",
+        "Al-Kharaba"
+      ],
+      "correct_answer": 0,
+      "difficulty": "easy",
+      "category": "tv_shows"
+    },
+    {
+      "id": "culture_003",
+      "question_ar": "من هي الفنانة السورية التي غنت أغنية 'يا مار الياس'؟",
+      "question_en": "Which Syrian artist sang 'Ya Mar Elias'?",
+      "options_ar": [
+        "ميادة الحناوي",
+        "فايزة أحمد",
+        "أصالة نصري",
+        "مي فاروق"
+      ],
+      "options_en": [
+        "Mayada El Hennawy",
+        "Fayza Ahmed",
+        "Assala Nasri",
+        "May Farouk"
+      ],
+      "correct_answer": 0,
+      "difficulty": "moderate",
+      "category": "music"
+    },
+    {
+      "id": "culture_004",
+      "question_ar": "في أي عام تم بث أول حلقة من مسلسل 'مرايا'؟",
+      "question_en": "In which year was the first episode of 'Maraya' aired?",
+      "options_ar": [
+        "1982",
+        "1990",
+        "1985",
+        "1978"
+      ],
+      "options_en": [
+        "1982",
+        "1990",
+        "1985",
+        "1978"
+      ],
+      "correct_answer": 0,
+      "difficulty": "hard",
+      "category": "tv_shows"
+    },
+    {
+      "id": "culture_005",
+      "question_ar": "من هو الممثل السوري الذي أدى دور أبو عصام في 'باب الحارة'؟",
+      "question_en": "Which Syrian actor played the role of Abu Issam in 'Bab Al-Hara'?",
+      "options_ar": [
+        "أيمن زيدان",
+        "عباس النوري",
+        "سامر المصري",
+        "قصي خولي"
+      ],
+      "options_en": [
+        "Ayman Zeidan",
+        "Abbas Al-Nouri",
+        "Samer Al-Masri",
+        "Qusai Khouli"
+      ],
+      "correct_answer": 1,
+      "difficulty": "moderate",
+      "category": "tv_shows"
+    }
+  ]
+}
