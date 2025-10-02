@@ -7,6 +7,7 @@ import androidx.compose.material3.*
 import androidx.compose.runtime.*
 import androidx.compose.ui.Alignment
 import androidx.compose.ui.Modifier
+import androidx.compose.ui.platform.LocalContext
 import androidx.compose.ui.res.stringResource
 import androidx.compose.ui.unit.dp
 import androidx.hilt.navigation.compose.hiltViewModel
@@ -19,8 +20,11 @@ fun SettingsScreen(
     onBackClick: () -> Unit,
     viewModel: SettingsViewModel = hiltViewModel()
 ) {
-    val currentLocale = Locale.getDefault()
-    var selectedLanguage by remember { mutableStateOf(if (currentLocale.language == "ar") "ar" else "en") }
+    val context = LocalContext.current
+    val activity = context as? android.app.Activity
+
+    val savedLanguage by viewModel.savedLanguage.collectAsState()
+    var selectedLanguage by remember(savedLanguage) { mutableStateOf(savedLanguage) }
 
     Scaffold(
         topBar = {
@@ -86,13 +90,19 @@ fun SettingsScreen(
                 }
             }
 
-            Spacer(modifier = Modifier.height(16.dp))
+            Spacer(modifier = Modifier.height(24.dp))
 
-            Text(
-                text = "Note: Language changes will take effect on app restart",
-                style = MaterialTheme.typography.bodySmall,
-                color = MaterialTheme.colorScheme.onSurfaceVariant
-            )
+            Button(
+                onClick = {
+                    activity?.let {
+                        viewModel.saveLanguageAndApply(selectedLanguage, it)
+                    }
+                },
+                modifier = Modifier.fillMaxWidth(),
+                enabled = selectedLanguage != savedLanguage
+            ) {
+                Text(text = stringResource(R.string.settings_save_button))
+            }
         }
     }
 }

@@ -45,6 +45,7 @@
     <string name="settings_language">Language</string>
     <string name="settings_language_arabic">العربية</string>
     <string name="settings_language_english">English</string>
+    <string name="settings_save_button">Save and Apply</string>
 
     <!-- Common -->
     <string name="back">Back</string>
