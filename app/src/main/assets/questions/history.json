@@ -102,6 +102,906 @@
       "correct_answer": 0,
       "difficulty": "hard",
       "category": "wars_battles"
+    },
+    {
+      "id": "history_006",
+      "question_ar": "ما هي أقدم مدينة مأهولة بشكل مستمر في العالم؟",
+      "question_en": "What is the oldest continuously inhabited city in the world?",
+      "options_ar": [
+        "دمشق",
+        "حلب",
+        "أريحا",
+        "القدس"
+      ],
+      "options_en": [
+        "Damascus",
+        "Aleplo",
+        "Jericho",
+        "Jerusalem"
+      ],
+      "correct_answer": 0,
+      "difficulty": "easy",
+      "category": "ancient_history"
+    },
+    {
+      "id": "history_007",
+      "question_ar": "في أي مدينة سورية يقع قصر العظم الشهير؟",
+      "question_en": "In which Syrian city is the famous Azem Palace located?",
+      "options_ar": [
+        "دمشق",
+        "حلب",
+        "حماة",
+        "حمص"
+      ],
+      "options_en": [
+        "Damascus",
+        "Aleppo",
+        "Hama",
+        "Homs"
+      ],
+      "correct_answer": 0,
+      "difficulty": "easy",
+      "category": "architecture"
+    },
+    {
+      "id": "history_008",
+      "question_ar": "من هو القائد المسلم الذي هزم المغول في معركة عين جالوت عام 1260؟",
+      "question_en": "Who was the Muslim leader who defeated the Mongols at the Battle of Ain Jalut in 1260?",
+      "options_ar": [
+        "سيف الدين قطز",
+        "صلاح الدين الأيوبي",
+        "بيبرس",
+        "خالد بن الوليد"
+      ],
+      "options_en": [
+        "Saif ad-Din Qutuz",
+        "Saladin",
+        "Baibars",
+        "Khalid ibn al-Walid"
+      ],
+      "correct_answer": 0,
+      "difficulty": "moderate",
+      "category": "wars_battles"
+    },
+    {
+      "id": "history_009",
+      "question_ar": "ما اسم المدينة الأثرية السورية التي كانت تُعرف بـ 'عروس الصحراء'؟",
+      "question_en": "What is the name of the Syrian archaeological city known as 'Bride of the Desert'?",
+      "options_ar": [
+        "تدمر",
+        "أفاميا",
+        "إيبلا",
+        "ماري"
+      ],
+      "options_en": [
+        "Palmyra",
+        "Apamea",
+        "Ebla",
+        "Mari"
+      ],
+      "correct_answer": 0,
+      "difficulty": "easy",
+      "category": "ancient_history"
+    },
+    {
+      "id": "history_010",
+      "question_ar": "من هو الخليفة الأموي الذي بنى الجامع الأموي في دمشق؟",
+      "question_en": "Which Umayyad Caliph built the Umayyad Mosque in Damascus?",
+      "options_ar": [
+        "الوليد بن عبد الملك",
+        "عبد الملك بن مروان",
+        "معاوية بن أبي سفيان",
+        "هشام بن عبد الملك"
+      ],
+      "options_en": [
+        "Al-Walid ibn Abd al-Malik",
+        "Abd al-Malik ibn Marwan",
+        "Muawiyah ibn Abi Sufyan",
+        "Hisham ibn Abd al-Malik"
+      ],
+      "correct_answer": 0,
+      "difficulty": "moderate",
+      "category": "architecture"
+    },
+    {
+      "id": "history_011",
+      "question_ar": "في أي قرن تم بناء قلعة حلب؟",
+      "question_en": "In which century was the Citadel of Aleppo built?",
+      "options_ar": [
+        "القرن الثاني عشر الميلادي",
+        "القرن العاشر الميلادي",
+        "القرن الخامس الميلادي",
+        "القرن الخامس عشر الميلادي"
+      ],
+      "options_en": [
+        "12th century AD",
+        "10th century AD",
+        "5th century AD",
+        "15th century AD"
+      ],
+      "correct_answer": 0,
+      "difficulty": "hard",
+      "category": "architecture"
+    },
+    {
+      "id": "history_012",
+      "question_ar": "ما هي الحضارة القديمة التي ازدهرت في مدينة إيبلا السورية؟",
+      "question_en": "What ancient civilization flourished in the Syrian city of Ebla?",
+      "options_ar": [
+        "حضارة إيبلا في العصر البرونزي",
+        "الحضارة الرومانية",
+        "الحضارة الفينيقية",
+        "الحضارة الآشورية"
+      ],
+      "options_en": [
+        "Eblaite civilization in the Bronze Age",
+        "Roman civilization",
+        "Phoenician civilization",
+        "Assyrian civilization"
+      ],
+      "correct_answer": 0,
+      "difficulty": "hard",
+      "category": "ancient_history"
+    },
+    {
+      "id": "history_013",
+      "question_ar": "من هو الشاعر السوري الملقب بـ 'شاعر القطرين'؟",
+      "question_en": "Who is the Syrian poet known as 'Poet of Two Countries'?",
+      "options_ar": [
+        "خليل مطران",
+        "نزار قباني",
+        "بدوي الجبل",
+        "عمر أبو ريشة"
+      ],
+      "options_en": [
+        "Khalil Mutran",
+        "Nizar Qabbani",
+        "Badawi al-Jabal",
+        "Omar Abu Risha"
+      ],
+      "correct_answer": 0,
+      "difficulty": "moderate",
+      "category": "literature"
+    },
+    {
+      "id": "history_014",
+      "question_ar": "في أي عام تأسست الجمهورية العربية السورية؟",
+      "question_en": "In which year was the Syrian Arab Republic established?",
+      "options_ar": [
+        "1961",
+        "1946",
+        "1958",
+        "1963"
+      ],
+      "options_en": [
+        "1961",
+        "1946",
+        "1958",
+        "1963"
+      ],
+      "correct_answer": 0,
+      "difficulty": "moderate",
+      "category": "modern_history"
+    },
+    {
+      "id": "history_015",
+      "question_ar": "ما اسم الأبجدية القديمة التي نشأت في مدينة أوغاريت السورية؟",
+      "question_en": "What is the name of the ancient alphabet that originated in the Syrian city of Ugarit?",
+      "options_ar": [
+        "الأبجدية الأوغاريتية",
+        "الأبجدية الآرامية",
+        "الأبجدية الفينيقية",
+        "الأبجدية السريانية"
+      ],
+      "options_en": [
+        "Ugaritic alphabet",
+        "Aramaic alphabet",
+        "Phoenician alphabet",
+        "Syriac alphabet"
+      ],
+      "correct_answer": 0,
+      "difficulty": "hard",
+      "category": "ancient_history"
+    },
+    {
+      "id": "history_016",
+      "question_ar": "ما هي عاصمة الدولة الأموية؟",
+      "question_en": "What was the capital of the Umayyad Caliphate?",
+      "options_ar": [
+        "دمشق",
+        "بغداد",
+        "القاهرة",
+        "مكة"
+      ],
+      "options_en": [
+        "Damascus",
+        "Baghdad",
+        "Cairo",
+        "Mecca"
+      ],
+      "correct_answer": 0,
+      "difficulty": "easy",
+      "category": "ancient_history"
+    },
+    {
+      "id": "history_017",
+      "question_ar": "من هو مؤسس الدولة الأموية؟",
+      "question_en": "Who was the founder of the Umayyad Caliphate?",
+      "options_ar": [
+        "معاوية بن أبي سفيان",
+        "عمر بن الخطاب",
+        "عثمان بن عفان",
+        "علي بن أبي طالب"
+      ],
+      "options_en": [
+        "Muawiyah ibn Abi Sufyan",
+        "Umar ibn al-Khattab",
+        "Uthman ibn Affan",
+        "Ali ibn Abi Talib"
+      ],
+      "correct_answer": 0,
+      "difficulty": "moderate",
+      "category": "ancient_history"
+    },
+    {
+      "id": "history_018",
+      "question_ar": "في أي معركة هُزم البيزنطيون على يد المسلمين في سوريا عام 636م؟",
+      "question_en": "In which battle were the Byzantines defeated by Muslims in Syria in 636 AD?",
+      "options_ar": [
+        "معركة اليرموك",
+        "معركة حطين",
+        "معركة القادسية",
+        "معركة بدر"
+      ],
+      "options_en": [
+        "Battle of Yarmouk",
+        "Battle of Hattin",
+        "Battle of Qadisiyyah",
+        "Battle of Badr"
+      ],
+      "correct_answer": 0,
+      "difficulty": "moderate",
+      "category": "wars_battles"
+    },
+    {
+      "id": "history_019",
+      "question_ar": "ما اسم القلعة الصليبية الشهيرة الواقعة بين حمص وطرطوس؟",
+      "question_en": "What is the name of the famous Crusader castle located between Homs and Tartus?",
+      "options_ar": [
+        "قلعة الحصن (كراك دي شوفالييه)",
+        "قلعة حلب",
+        "قلعة صلاح الدين",
+        "قلعة دمشق"
+      ],
+      "options_en": [
+        "Krak des Chevaliers",
+        "Citadel of Aleppo",
+        "Saladin Castle",
+        "Damascus Citadel"
+      ],
+      "correct_answer": 0,
+      "difficulty": "moderate",
+      "category": "architecture"
+    },
+    {
+      "id": "history_020",
+      "question_ar": "من هو القائد الذي فتح دمشق في العصر الإسلامي؟",
+      "question_en": "Who was the commander who conquered Damascus in the Islamic era?",
+      "options_ar": [
+        "خالد بن الوليد",
+        "عمرو بن العاص",
+        "أبو عبيدة بن الجراح",
+        "سعد بن أبي وقاص"
+      ],
+      "options_en": [
+        "Khalid ibn al-Walid",
+        "Amr ibn al-As",
+        "Abu Ubayda ibn al-Jarrah",
+        "Sa'd ibn Abi Waqqas"
+      ],
+      "correct_answer": 0,
+      "difficulty": "moderate",
+      "category": "ancient_history"
+    },
+    {
+      "id": "history_021",
+      "question_ar": "ما هي المدينة السورية التي كانت مركزاً تجارياً مهماً على طريق الحرير؟",
+      "question_en": "Which Syrian city was an important trading center on the Silk Road?",
+      "options_ar": [
+        "تدمر",
+        "حماة",
+        "درعا",
+        "دير الزور"
+      ],
+      "options_en": [
+        "Palmyra",
+        "Hama",
+        "Daraa",
+        "Deir ez-Zor"
+      ],
+      "correct_answer": 0,
+      "difficulty": "easy",
+      "category": "ancient_history"
+    },
+    {
+      "id": "history_022",
+      "question_ar": "من هو الرئيس السوري الأول بعد الاستقلال؟",
+      "question_en": "Who was the first Syrian president after independence?",
+      "options_ar": [
+        "شكري القوتلي",
+        "هاشم الأتاسي",
+        "جمال عبد الناصر",
+        "أديب الشيشكلي"
+      ],
+      "options_en": [
+        "Shukri al-Quwatli",
+        "Hashem al-Atassi",
+        "Gamal Abdel Nasser",
+        "Adib Shishakli"
+      ],
+      "correct_answer": 0,
+      "difficulty": "hard",
+      "category": "modern_history"
+    },
+    {
+      "id": "history_023",
+      "question_ar": "في أي عام توحدت سوريا ومصر لتشكيل الجمهورية العربية المتحدة؟",
+      "question_en": "In which year did Syria and Egypt unite to form the United Arab Republic?",
+      "options_ar": [
+        "1958",
+        "1961",
+        "1955",
+        "1963"
+      ],
+      "options_en": [
+        "1958",
+        "1961",
+        "1955",
+        "1963"
+      ],
+      "correct_answer": 0,
+      "difficulty": "moderate",
+      "category": "modern_history"
+    },
+    {
+      "id": "history_024",
+      "question_ar": "ما هي اللغة القديمة التي كانت تُستخدم في سوريا قبل العربية؟",
+      "question_en": "What was the ancient language used in Syria before Arabic?",
+      "options_ar": [
+        "الآرامية",
+        "اللاتينية",
+        "الفارسية",
+        "التركية"
+      ],
+      "options_en": [
+        "Aramaic",
+        "Latin",
+        "Persian",
+        "Turkish"
+      ],
+      "correct_answer": 0,
+      "difficulty": "moderate",
+      "category": "ancient_history"
+    },
+    {
+      "id": "history_025",
+      "question_ar": "من هو السلطان المملوكي الذي هزم المغول في معركة عين جالوت وحكم من دمشق؟",
+      "question_en": "Who was the Mamluk Sultan who defeated the Mongols at Ain Jalut and ruled from Damascus?",
+      "options_ar": [
+        "الظاهر بيبرس",
+        "قلاوون",
+        "سيف الدين قطز",
+        "برسباي"
+      ],
+      "options_en": [
+        "Baibars",
+        "Qalawun",
+        "Qutuz",
+        "Barsbay"
+      ],
+      "correct_answer": 0,
+      "difficulty": "hard",
+      "category": "wars_battles"
+    },
+    {
+      "id": "history_026",
+      "question_ar": "ما اسم المدينة الأثرية السورية التي تحتوي على واحدة من أقدم المستوطنات البشرية؟",
+      "question_en": "What is the name of the Syrian archaeological site containing one of the oldest human settlements?",
+      "options_ar": [
+        "تل حلف",
+        "بصرى",
+        "قلعة سمعان",
+        "رصافة"
+      ],
+      "options_en": [
+        "Tell Halaf",
+        "Bosra",
+        "Qalaat Semaan",
+        "Resafa"
+      ],
+      "correct_answer": 0,
+      "difficulty": "hard",
+      "category": "ancient_history"
+    },
+    {
+      "id": "history_027",
+      "question_ar": "أين يقع المسرح الروماني الشهير في سوريا؟",
+      "question_en": "Where is the famous Roman theater located in Syria?",
+      "options_ar": [
+        "بصرى",
+        "تدمر",
+        "أفاميا",
+        "حلب"
+      ],
+      "options_en": [
+        "Bosra",
+        "Palmyra",
+        "Apamea",
+        "Aleppo"
+      ],
+      "correct_answer": 0,
+      "difficulty": "moderate",
+      "category": "architecture"
+    },
+    {
+      "id": "history_028",
+      "question_ar": "من هو الإمبراطور الروماني الذي حكم من تدمر لفترة قصيرة؟",
+      "question_en": "Who was the Roman emperor who ruled from Palmyra for a short period?",
+      "options_ar": [
+        "أذينة (أوديناثوس)",
+        "تراجان",
+        "هادريان",
+        "قسطنطين"
+      ],
+      "options_en": [
+        "Odaenathus",
+        "Trajan",
+        "Hadrian",
+        "Constantine"
+      ],
+      "correct_answer": 0,
+      "difficulty": "hard",
+      "category": "ancient_history"
+    },
+    {
+      "id": "history_029",
+      "question_ar": "في أي قرن دخلت الدولة العثمانية سوريا؟",
+      "question_en": "In which century did the Ottoman Empire enter Syria?",
+      "options_ar": [
+        "القرن السادس عشر",
+        "القرن الخامس عشر",
+        "القرن السابع عشر",
+        "القرن الثامن عشر"
+      ],
+      "options_en": [
+        "16th century",
+        "15th century",
+        "17th century",
+        "18th century"
+      ],
+      "correct_answer": 0,
+      "difficulty": "moderate",
+      "category": "modern_history"
+    },
+    {
+      "id": "history_030",
+      "question_ar": "ما اسم الثورة السورية ضد الاحتلال الفرنسي عام 1925؟",
+      "question_en": "What was the name of the Syrian revolution against French occupation in 1925?",
+      "options_ar": [
+        "الثورة السورية الكبرى",
+        "ثورة العشرين",
+        "ثورة الشعب",
+        "ثورة الاستقلال"
+      ],
+      "options_en": [
+        "The Great Syrian Revolt",
+        "1920 Revolution",
+        "People's Revolution",
+        "Independence Revolution"
+      ],
+      "correct_answer": 0,
+      "difficulty": "moderate",
+      "category": "independence"
+    },
+    {
+      "id": "history_031",
+      "question_ar": "من هو قائد الثورة السورية الكبرى عام 1925؟",
+      "question_en": "Who was the leader of the Great Syrian Revolt in 1925?",
+      "options_ar": [
+        "سلطان باشا الأطرش",
+        "يوسف العظمة",
+        "إبراهيم هنانو",
+        "صالح العلي"
+      ],
+      "options_en": [
+        "Sultan Pasha al-Atrash",
+        "Yusuf al-Azma",
+        "Ibrahim Hananu",
+        "Saleh al-Ali"
+      ],
+      "correct_answer": 0,
+      "difficulty": "hard",
+      "category": "independence"
+    },
+    {
+      "id": "history_032",
+      "question_ar": "في أي معركة استشهد وزير الدفاع السوري يوسف العظمة؟",
+      "question_en": "In which battle was Syrian Defense Minister Yusuf al-Azma martyred?",
+      "options_ar": [
+        "معركة ميسلون",
+        "معركة اليرموك",
+        "معركة حطين",
+        "معركة عين جالوت"
+      ],
+      "options_en": [
+        "Battle of Maysalun",
+        "Battle of Yarmouk",
+        "Battle of Hattin",
+        "Battle of Ain Jalut"
+      ],
+      "correct_answer": 0,
+      "difficulty": "hard",
+      "category": "independence"
+    },
+    {
+      "id": "history_033",
+      "question_ar": "ما هو اسم البوابة الرومانية الشهيرة في دمشق القديمة؟",
+      "question_en": "What is the name of the famous Roman gate in Old Damascus?",
+      "options_ar": [
+        "الباب الشرقي",
+        "باب توما",
+        "باب الجابية",
+        "باب كيسان"
+      ],
+      "options_en": [
+        "Bab Sharqi (Eastern Gate)",
+        "Bab Touma",
+        "Bab al-Jabiya",
+        "Bab Kisan"
+      ],
+      "correct_answer": 0,
+      "difficulty": "moderate",
+      "category": "architecture"
+    },
+    {
+      "id": "history_034",
+      "question_ar": "من هو الخليفة العباسي الذي بنى مدينة الرقة وجعلها عاصمة الخلافة؟",
+      "question_en": "Which Abbasid Caliph built the city of Raqqa and made it the capital of the Caliphate?",
+      "options_ar": [
+        "هارون الرشيد",
+        "المأمون",
+        "المنصور",
+        "المعتصم"
+      ],
+      "options_en": [
+        "Harun al-Rashid",
+        "Al-Ma'mun",
+        "Al-Mansur",
+        "Al-Mu'tasim"
+      ],
+      "correct_answer": 0,
+      "difficulty": "hard",
+      "category": "ancient_history"
+    },
+    {
+      "id": "history_035",
+      "question_ar": "ما اسم المعبد الروماني الشهير في تدمر؟",
+      "question_en": "What is the name of the famous Roman temple in Palmyra?",
+      "options_ar": [
+        "معبد بل",
+        "معبد باخوس",
+        "معبد جوبيتر",
+        "معبد فينوس"
+      ],
+      "options_en": [
+        "Temple of Bel",
+        "Temple of Bacchus",
+        "Temple of Jupiter",
+        "Temple of Venus"
+      ],
+      "correct_answer": 0,
+      "difficulty": "moderate",
+      "category": "architecture"
+    },
+    {
+      "id": "history_036",
+      "question_ar": "كم سنة دامت فترة الانتداب الفرنسي على سوريا؟",
+      "question_en": "How many years did the French Mandate over Syria last?",
+      "options_ar": [
+        "26 سنة (1920-1946)",
+        "20 سنة",
+        "30 سنة",
+        "15 سنة"
+      ],
+      "options_en": [
+        "26 years (1920-1946)",
+        "20 years",
+        "30 years",
+        "15 years"
+      ],
+      "correct_answer": 0,
+      "difficulty": "moderate",
+      "category": "independence"
+    },
+    {
+      "id": "history_037",
+      "question_ar": "من هو المؤرخ السوري الذي كتب 'مختصر تاريخ البشر'؟",
+      "question_en": "Who is the Syrian historian who wrote 'A Brief History of Mankind'?",
+      "options_ar": [
+        "ابن العديم",
+        "ابن كثير",
+        "ابن خلدون",
+        "الطبري"
+      ],
+      "options_en": [
+        "Ibn al-Adim",
+        "Ibn Kathir",
+        "Ibn Khaldun",
+        "Al-Tabari"
+      ],
+      "correct_answer": 0,
+      "difficulty": "hard",
+      "category": "literature"
+    },
+    {
+      "id": "history_038",
+      "question_ar": "أين يقع ضريح صلاح الدين الأيوبي؟",
+      "question_en": "Where is the tomb of Saladin located?",
+      "options_ar": [
+        "دمشق",
+        "القدس",
+        "حلب",
+        "القاهرة"
+      ],
+      "options_en": [
+        "Damascus",
+        "Jerusalem",
+        "Aleppo",
+        "Cairo"
+      ],
+      "correct_answer": 0,
+      "difficulty": "moderate",
+      "category": "ancient_history"
+    },
+    {
+      "id": "history_039",
+      "question_ar": "ما هي المدينة السورية التي تشتهر بنواعيرها التاريخية على نهر العاصي؟",
+      "question_en": "Which Syrian city is famous for its historic waterwheels on the Orontes River?",
+      "options_ar": [
+        "حماة",
+        "حمص",
+        "حلب",
+        "اللاذقية"
+      ],
+      "options_en": [
+        "Hama",
+        "Homs",
+        "Aleppo",
+        "Latakia"
+      ],
+      "correct_answer": 0,
+      "difficulty": "easy",
+      "category": "architecture"
+    },
+    {
+      "id": "history_040",
+      "question_ar": "من هو الجغرافي السوري الشهير من القرن الثاني عشر؟",
+      "question_en": "Who is the famous Syrian geographer from the 12th century?",
+      "options_ar": [
+        "الإدريسي",
+        "ياقوت الحموي",
+        "ابن بطوطة",
+        "البكري"
+      ],
+      "options_en": [
+        "Al-Idrisi",
+        "Yaqut al-Hamawi",
+        "Ibn Battuta",
+        "Al-Bakri"
+      ],
+      "correct_answer": 1,
+      "difficulty": "hard",
+      "category": "literature"
+    },
+    {
+      "id": "history_041",
+      "question_ar": "ما اسم القصر الأموي الصحراوي الشهير شرق دمشق؟",
+      "question_en": "What is the name of the famous Umayyad desert palace east of Damascus?",
+      "options_ar": [
+        "قصر الحير الشرقي",
+        "قصر العظم",
+        "قصر المهاجرين",
+        "قصر الضيافة"
+      ],
+      "options_en": [
+        "Qasr al-Hayr al-Sharqi",
+        "Azem Palace",
+        "Al-Muhajirin Palace",
+        "Guest Palace"
+      ],
+      "correct_answer": 0,
+      "difficulty": "hard",
+      "category": "architecture"
+    },
+    {
+      "id": "history_042",
+      "question_ar": "من هو الفيلسوف السوري الذي عاش في القرن الثاني عشر وألف 'رسالة حي بن يقظان'؟",
+      "question_en": "Who is the Syrian philosopher from the 12th century who wrote 'Hayy ibn Yaqzan'?",
+      "options_ar": [
+        "ابن طفيل",
+        "الفارابي",
+        "ابن رشد",
+        "ابن سينا"
+      ],
+      "options_en": [
+        "Ibn Tufail",
+        "Al-Farabi",
+        "Ibn Rushd",
+        "Ibn Sina"
+      ],
+      "correct_answer": 0,
+      "difficulty": "hard",
+      "category": "literature"
+    },
+    {
+      "id": "history_043",
+      "question_ar": "في أي عام تم اكتشاف مدينة إيبلا الأثرية؟",
+      "question_en": "In which year was the archaeological city of Ebla discovered?",
+      "options_ar": [
+        "1964",
+        "1974",
+        "1954",
+        "1984"
+      ],
+      "options_en": [
+        "1964",
+        "1974",
+        "1954",
+        "1984"
+      ],
+      "correct_answer": 0,
+      "difficulty": "hard",
+      "category": "ancient_history"
+    },
+    {
+      "id": "history_044",
+      "question_ar": "ما هو اسم الشارع الأثري الروماني الشهير في تدمر؟",
+      "question_en": "What is the name of the famous Roman colonnade street in Palmyra?",
+      "options_ar": [
+        "الشارع المستقيم (الكاردو ماكسيموس)",
+        "شارع الأعمدة",
+        "الطريق الملكي",
+        "درب الحرير"
+      ],
+      "options_en": [
+        "Via Recta (Cardo Maximus)",
+        "Colonnade Street",
+        "Royal Road",
+        "Silk Road"
+      ],
+      "correct_answer": 0,
+      "difficulty": "moderate",
+      "category": "architecture"
+    },
+    {
+      "id": "history_045",
+      "question_ar": "من هو العالم السوري الذي اخترع الاسطرلاب؟",
+      "question_en": "Who is the Syrian scientist who invented the astrolabe?",
+      "options_ar": [
+        "ماري بن سليمان البغدادي",
+        "ابن النفيس",
+        "الخوارزمي",
+        "البيروني"
+      ],
+      "options_en": [
+        "Mari ibn Sulayman al-Baghdadi",
+        "Ibn al-Nafis",
+        "Al-Khwarizmi",
+        "Al-Biruni"
+      ],
+      "correct_answer": 0,
+      "difficulty": "hard",
+      "category": "ancient_history"
+    },
+    {
+      "id": "history_046",
+      "question_ar": "ما اسم الكنيسة البيزنطية الشهيرة شمال حلب؟",
+      "question_en": "What is the name of the famous Byzantine church north of Aleppo?",
+      "options_ar": [
+        "كنيسة القديس سمعان العمودي",
+        "كنيسة المهد",
+        "كنيسة القيامة",
+        "كنيسة حنانيا"
+      ],
+      "options_en": [
+        "Church of Saint Simeon Stylites",
+        "Church of Nativity",
+        "Church of the Holy Sepulchre",
+        "Chapel of Ananias"
+      ],
+      "correct_answer": 0,
+      "difficulty": "moderate",
+      "category": "architecture"
+    },
+    {
+      "id": "history_047",
+      "question_ar": "من هو الطبيب السوري الذي اكتشف الدورة الدموية الصغرى؟",
+      "question_en": "Who is the Syrian physician who discovered pulmonary circulation?",
+      "options_ar": [
+        "ابن النفيس",
+        "ابن سينا",
+        "الرازي",
+        "ابن رشد"
+      ],
+      "options_en": [
+        "Ibn al-Nafis",
+        "Ibn Sina",
+        "Al-Razi",
+        "Ibn Rushd"
+      ],
+      "correct_answer": 0,
+      "difficulty": "hard",
+      "category": "ancient_history"
+    },
+    {
+      "id": "history_048",
+      "question_ar": "في أي مدينة سورية يوجد الخان الشهير المسمى 'خان أسعد باشا'؟",
+      "question_en": "In which Syrian city is the famous khan called 'Khan As'ad Pasha' located?",
+      "options_ar": [
+        "دمشق",
+        "حلب",
+        "حماة",
+        "حمص"
+      ],
+      "options_en": [
+        "Damascus",
+        "Aleppo",
+        "Hama",
+        "Homs"
+      ],
+      "correct_answer": 0,
+      "difficulty": "moderate",
+      "category": "architecture"
+    },
+    {
+      "id": "history_049",
+      "question_ar": "من هو الشاعر العباسي الشهير الذي عاش في حلب؟",
+      "question_en": "Who is the famous Abbasid poet who lived in Aleppo?",
+      "options_ar": [
+        "أبو الطيب المتنبي",
+        "أبو نواس",
+        "البحتري",
+        "أبو العلاء المعري"
+      ],
+      "options_en": [
+        "Al-Mutanabbi",
+        "Abu Nuwas",
+        "Al-Buhturi",
+        "Abu al-Ala al-Ma'arri"
+      ],
+      "correct_answer": 0,
+      "difficulty": "moderate",
+      "category": "literature"
+    },
+    {
+      "id": "history_050",
+      "question_ar": "ما هي المدينة السورية التي لُقبت بـ 'عاصمة الثقافة الإسلامية'؟",
+      "question_en": "Which Syrian city was named 'Capital of Islamic Culture'?",
+      "options_ar": [
+        "حلب",
+        "دمشق",
+        "حماة",
+        "حمص"
+      ],
+      "options_en": [
+        "Aleppo",
+        "Damascus",
+        "Hama",
+        "Homs"
+      ],
+      "correct_answer": 0,
+      "difficulty": "moderate",
+      "category": "modern_history"
     }
   ]
 }

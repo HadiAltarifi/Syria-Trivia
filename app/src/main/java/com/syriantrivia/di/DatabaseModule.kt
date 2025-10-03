@@ -23,7 +23,9 @@ object DatabaseModule {
             context,
             SyriaTriviaDatabase::class.java,
             "syria_trivia_database"
-        ).build()
+        )
+        .fallbackToDestructiveMigration() // Delete and recreate DB on version change
+        .build()
     }
 
     @Provides

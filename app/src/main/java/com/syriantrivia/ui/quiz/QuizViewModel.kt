@@ -43,18 +43,21 @@ class QuizViewModel @Inject constructor(
             try {
                 _uiState.value = _uiState.value.copy(isLoading = true)
 
-                questions = questionRepository.getQuestionsByModuleAndDifficulty(
+                val allQuestions = questionRepository.getQuestionsByModuleAndDifficulty(
                     ModuleType.fromId(moduleType),
                     Difficulty.fromId(difficulty)
                 )
 
-                if (questions.isEmpty()) {
+                if (allQuestions.isEmpty()) {
                     _uiState.value = _uiState.value.copy(
                         isLoading = false,
                         error = "No questions available"
                     )
                     return@launch
                 }
+
+                // show all questions in random order
+                questions = allQuestions.shuffled()
 
                 _uiState.value = _uiState.value.copy(
                     currentQuestion = questions.firstOrNull(),

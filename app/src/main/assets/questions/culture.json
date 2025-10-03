@@ -102,6 +102,906 @@
       "correct_answer": 1,
       "difficulty": "moderate",
       "category": "tv_shows"
+    },
+    {
+      "id": "culture_006",
+      "question_ar": "ما هو الطبق السوري الشهير المكون من البرغل واللحم المفروم؟",
+      "question_en": "What is the famous Syrian dish made of bulgur and minced meat?",
+      "options_ar": [
+        "الكبة",
+        "المحاشي",
+        "الكباب",
+        "الفتة"
+      ],
+      "options_en": [
+        "Kibbeh",
+        "Mahashi",
+        "Kebab",
+        "Fatteh"
+      ],
+      "correct_answer": 0,
+      "difficulty": "easy",
+      "category": "food"
+    },
+    {
+      "id": "culture_007",
+      "question_ar": "ما اسم الحلوى السورية المصنوعة من الجبن والسميد المغطاة بالقطر؟",
+      "question_en": "What is the name of the Syrian dessert made from cheese and semolina covered in syrup?",
+      "options_ar": [
+        "الكنافة",
+        "البقلاوة",
+        "القطايف",
+        "الهريسة"
+      ],
+      "options_en": [
+        "Kunafa",
+        "Baklava",
+        "Qatayef",
+        "Harisseh"
+      ],
+      "correct_answer": 0,
+      "difficulty": "easy",
+      "category": "food"
+    },
+    {
+      "id": "culture_008",
+      "question_ar": "ما هي الرقصة الشعبية السورية التي تؤدى في الأعراس والمناسبات؟",
+      "question_en": "What is the traditional Syrian dance performed at weddings and celebrations?",
+      "options_ar": [
+        "الدبكة",
+        "السامبا",
+        "الفالس",
+        "التانغو"
+      ],
+      "options_en": [
+        "Dabke",
+        "Samba",
+        "Waltz",
+        "Tango"
+      ],
+      "correct_answer": 0,
+      "difficulty": "easy",
+      "category": "traditions"
+    },
+    {
+      "id": "culture_009",
+      "question_ar": "من هو الشاعر السوري الشهير الذي كتب 'قصيدة الخبز والحشيش والقمر'؟",
+      "question_en": "Who is the famous Syrian poet who wrote 'Bread, Hashish and Moon'?",
+      "options_ar": [
+        "نزار قباني",
+        "محمود درويش",
+        "بدوي الجبل",
+        "أدونيس"
+      ],
+      "options_en": [
+        "Nizar Qabbani",
+        "Mahmoud Darwish",
+        "Badawi al-Jabal",
+        "Adonis"
+      ],
+      "correct_answer": 0,
+      "difficulty": "moderate",
+      "category": "literature"
+    },
+    {
+      "id": "culture_010",
+      "question_ar": "ما اسم السوق القديم الشهير في دمشق؟",
+      "question_en": "What is the name of the famous old market in Damascus?",
+      "options_ar": [
+        "سوق الحميدية",
+        "سوق الحرير",
+        "سوق المدينة",
+        "سوق البزورية"
+      ],
+      "options_en": [
+        "Souq al-Hamidiyya",
+        "Silk Market",
+        "City Market",
+        "Souq al-Bzouriyya"
+      ],
+      "correct_answer": 0,
+      "difficulty": "easy",
+      "category": "landmarks"
+    },
+    {
+      "id": "culture_011",
+      "question_ar": "ما هي الحرفة اليدوية التقليدية التي تشتهر بها دمشق؟",
+      "question_en": "What traditional handicraft is Damascus famous for?",
+      "options_ar": [
+        "التطعيم بالصدف (الموزاييك)",
+        "صناعة الفخار",
+        "النسيج الحريري",
+        "صناعة الجلود"
+      ],
+      "options_en": [
+        "Mother-of-pearl inlay (Mosaic)",
+        "Pottery",
+        "Silk weaving",
+        "Leather crafting"
+      ],
+      "correct_answer": 0,
+      "difficulty": "moderate",
+      "category": "crafts"
+    },
+    {
+      "id": "culture_012",
+      "question_ar": "ما اسم القهوة السورية التقليدية المنكهة بالهيل؟",
+      "question_en": "What is the name of the traditional Syrian coffee flavored with cardamom?",
+      "options_ar": [
+        "القهوة العربية",
+        "الإسبريسو",
+        "القهوة التركية",
+        "الكابتشينو"
+      ],
+      "options_en": [
+        "Arabic Coffee",
+        "Espresso",
+        "Turkish Coffee",
+        "Cappuccino"
+      ],
+      "correct_answer": 0,
+      "difficulty": "easy",
+      "category": "food"
+    },
+    {
+      "id": "culture_013",
+      "question_ar": "من هو الممثل السوري الشهير الذي قدم شخصية 'غوار الطوشة'؟",
+      "question_en": "Who is the famous Syrian actor who played the character 'Ghawar al-Tosheh'?",
+      "options_ar": [
+        "دريد لحام",
+        "نهاد قلعي",
+        "ياسر العظمة",
+        "أيمن زيدان"
+      ],
+      "options_en": [
+        "Duraid Lahham",
+        "Nehad Qalei",
+        "Yasser Al-Azma",
+        "Ayman Zeidan"
+      ],
+      "correct_answer": 0,
+      "difficulty": "easy",
+      "category": "tv_shows"
+    },
+    {
+      "id": "culture_014",
+      "question_ar": "ما هو الآلة الموسيقية الوترية التقليدية الشائعة في الموسيقى السورية؟",
+      "question_en": "What is the traditional string instrument common in Syrian music?",
+      "options_ar": [
+        "العود",
+        "الكمان",
+        "الجيتار",
+        "البيانو"
+      ],
+      "options_en": [
+        "Oud",
+        "Violin",
+        "Guitar",
+        "Piano"
+      ],
+      "correct_answer": 0,
+      "difficulty": "easy",
+      "category": "music"
+    },
+    {
+      "id": "culture_015",
+      "question_ar": "ما اسم الطبق السوري المكون من الباذنجان المقلي واللحم والأرز؟",
+      "question_en": "What is the name of the Syrian dish made of fried eggplant, meat, and rice?",
+      "options_ar": [
+        "المقلوبة",
+        "الكبسة",
+        "المنسف",
+        "الفتة"
+      ],
+      "options_en": [
+        "Maqluba",
+        "Kabsa",
+        "Mansaf",
+        "Fatteh"
+      ],
+      "correct_answer": 0,
+      "difficulty": "moderate",
+      "category": "food"
+    },
+    {
+      "id": "culture_016",
+      "question_ar": "من هو المخرج السوري الشهير الذي أخرج مسلسل 'صح النوم'؟",
+      "question_en": "Who is the famous Syrian director who directed 'Sah El Nom'?",
+      "options_ar": [
+        "هيثم حقي",
+        "باسل الخطيب",
+        "حاتم علي",
+        "نجدت أنزور"
+      ],
+      "options_en": [
+        "Haitham Hakki",
+        "Basil Al-Khatib",
+        "Hatem Ali",
+        "Najdat Anzour"
+      ],
+      "correct_answer": 0,
+      "difficulty": "hard",
+      "category": "tv_shows"
+    },
+    {
+      "id": "culture_017",
+      "question_ar": "ما هي المدينة السورية المشهورة بصناعة الصابون الغار؟",
+      "question_en": "Which Syrian city is famous for making laurel soap?",
+      "options_ar": [
+        "حلب",
+        "دمشق",
+        "حماة",
+        "اللاذقية"
+      ],
+      "options_en": [
+        "Aleppo",
+        "Damascus",
+        "Hama",
+        "Latakia"
+      ],
+      "correct_answer": 0,
+      "difficulty": "easy",
+      "category": "crafts"
+    },
+    {
+      "id": "culture_018",
+      "question_ar": "ما اسم الحلوى السورية المصنوعة من الطحينة والسكر؟",
+      "question_en": "What is the name of the Syrian sweet made from tahini and sugar?",
+      "options_ar": [
+        "الحلاوة الطحينية",
+        "المعمول",
+        "الغريبة",
+        "الناطف"
+      ],
+      "options_en": [
+        "Halawa Tahinia",
+        "Maamoul",
+        "Ghriba",
+        "Natef"
+      ],
+      "correct_answer": 0,
+      "difficulty": "easy",
+      "category": "food"
+    },
+    {
+      "id": "culture_019",
+      "question_ar": "ما اسم الشوربة السورية المصنوعة من العدس؟",
+      "question_en": "What is the name of the Syrian soup made from lentils?",
+      "options_ar": [
+        "شوربة العدس",
+        "الفريكة",
+        "الشوربة الحمراء",
+        "شوربة الفريك"
+      ],
+      "options_en": [
+        "Lentil Soup",
+        "Freekeh",
+        "Red Soup",
+        "Freek Soup"
+      ],
+      "correct_answer": 0,
+      "difficulty": "easy",
+      "category": "food"
+    },
+    {
+      "id": "culture_020",
+      "question_ar": "ما هو المشروب الوطني السوري الذي يُشرب مع الطعام؟",
+      "question_en": "What is the Syrian national drink often consumed with food?",
+      "options_ar": [
+        "العرق",
+        "الشاي",
+        "القهوة",
+        "الجلاب"
+      ],
+      "options_en": [
+        "Arak",
+        "Tea",
+        "Coffee",
+        "Jallab"
+      ],
+      "correct_answer": 0,
+      "difficulty": "easy",
+      "category": "food"
+    },
+    {
+      "id": "culture_021",
+      "question_ar": "ما اسم الطبق السوري المكون من ورق العنب المحشي؟",
+      "question_en": "What is the name of the Syrian dish made of stuffed grape leaves?",
+      "options_ar": [
+        "يبرق (ورق العنب)",
+        "محشي الكوسا",
+        "محشي الباذنجان",
+        "الملفوف"
+      ],
+      "options_en": [
+        "Yabrak (Grape Leaves)",
+        "Stuffed Zucchini",
+        "Stuffed Eggplant",
+        "Cabbage Rolls"
+      ],
+      "correct_answer": 0,
+      "difficulty": "easy",
+      "category": "food"
+    },
+    {
+      "id": "culture_022",
+      "question_ar": "من هي المغنية السورية الشهيرة التي غنت 'يا حيف'؟",
+      "question_en": "Who is the famous Syrian singer who sang 'Ya Haif'?",
+      "options_ar": [
+        "أصالة نصري",
+        "ميادة الحناوي",
+        "لينا شماميان",
+        "فايا يونان"
+      ],
+      "options_en": [
+        "Assala Nasri",
+        "Mayada El Hennawy",
+        "Lena Chamamyan",
+        "Faia Younan"
+      ],
+      "correct_answer": 0,
+      "difficulty": "moderate",
+      "category": "music"
+    },
+    {
+      "id": "culture_023",
+      "question_ar": "ما اسم الخبز السوري التقليدي الرقيق؟",
+      "question_en": "What is the name of the traditional thin Syrian bread?",
+      "options_ar": [
+        "خبز الصاج",
+        "الكماج",
+        "الباغيت",
+        "الخبز الأسمر"
+      ],
+      "options_en": [
+        "Saj Bread",
+        "Kmaj",
+        "Baguette",
+        "Brown Bread"
+      ],
+      "correct_answer": 0,
+      "difficulty": "easy",
+      "category": "food"
+    },
+    {
+      "id": "culture_024",
+      "question_ar": "من هو الممثل السوري الذي لُقب بـ 'عميد الفن السوري'؟",
+      "question_en": "Who is the Syrian actor known as the 'Dean of Syrian Art'?",
+      "options_ar": [
+        "دريد لحام",
+        "عباس النوري",
+        "أيمن زيدان",
+        "جمال سليمان"
+      ],
+      "options_en": [
+        "Duraid Lahham",
+        "Abbas Al-Nouri",
+        "Ayman Zeidan",
+        "Jamal Soliman"
+      ],
+      "correct_answer": 0,
+      "difficulty": "moderate",
+      "category": "tv_shows"
+    },
+    {
+      "id": "culture_025",
+      "question_ar": "ما اسم المعجنات السورية المحشوة بالسبانخ؟",
+      "question_en": "What is the name of the Syrian pastry filled with spinach?",
+      "options_ar": [
+        "فطائر السبانخ",
+        "السمبوسك",
+        "المناقيش",
+        "الكعك"
+      ],
+      "options_en": [
+        "Spinach Fatayer",
+        "Sambousek",
+        "Manaqish",
+        "Kaak"
+      ],
+      "correct_answer": 0,
+      "difficulty": "easy",
+      "category": "food"
+    },
+    {
+      "id": "culture_026",
+      "question_ar": "من هو الموسيقار السوري الشهير الملقب بـ 'الموسيقار الكبير'؟",
+      "question_en": "Who is the famous Syrian musician known as 'The Great Musician'?",
+      "options_ar": [
+        "فريد الأطرش",
+        "سميح شقير",
+        "صباح فخري",
+        "وديع الصافي"
+      ],
+      "options_en": [
+        "Farid al-Atrash",
+        "Samih Choukeir",
+        "Sabah Fakhri",
+        "Wadih El Safi"
+      ],
+      "correct_answer": 0,
+      "difficulty": "moderate",
+      "category": "music"
+    },
+    {
+      "id": "culture_027",
+      "question_ar": "ما اسم الحلوى السورية المصنوعة من السميد والقطر على شكل دوائر؟",
+      "question_en": "What is the name of the Syrian sweet made of semolina and syrup in circular shapes?",
+      "options_ar": [
+        "البسبوسة",
+        "الهريسة",
+        "المعمول",
+        "الغريبة"
+      ],
+      "options_en": [
+        "Basbousa",
+        "Harisseh",
+        "Maamoul",
+        "Ghriba"
+      ],
+      "correct_answer": 0,
+      "difficulty": "easy",
+      "category": "food"
+    },
+    {
+      "id": "culture_028",
+      "question_ar": "من هو الكاتب السوري الذي كتب مسلسل 'مرايا'؟",
+      "question_en": "Who is the Syrian writer who wrote the series 'Maraya'?",
+      "options_ar": [
+        "ياسر العظمة",
+        "محمد الماغوط",
+        "دريد لحام",
+        "نهاد قلعي"
+      ],
+      "options_en": [
+        "Yasser Al-Azma",
+        "Muhammad al-Maghout",
+        "Duraid Lahham",
+        "Nehad Qalei"
+      ],
+      "correct_answer": 0,
+      "difficulty": "moderate",
+      "category": "tv_shows"
+    },
+    {
+      "id": "culture_029",
+      "question_ar": "ما هو النبات العطري الذي يُستخدم كثيراً في المطبخ السوري؟",
+      "question_en": "What is the aromatic herb widely used in Syrian cuisine?",
+      "options_ar": [
+        "النعناع",
+        "الريحان",
+        "الزعتر",
+        "البقدونس"
+      ],
+      "options_en": [
+        "Mint",
+        "Basil",
+        "Thyme",
+        "Parsley"
+      ],
+      "correct_answer": 0,
+      "difficulty": "easy",
+      "category": "food"
+    },
+    {
+      "id": "culture_030",
+      "question_ar": "ما اسم الطبق السوري المكون من اللحم والأرز بالبهارات؟",
+      "question_en": "What is the name of the Syrian dish made of meat and spiced rice?",
+      "options_ar": [
+        "الرز بالخلطة",
+        "الكبسة",
+        "المنسف",
+        "البرياني"
+      ],
+      "options_en": [
+        "Riz bil Khalta",
+        "Kabsa",
+        "Mansaf",
+        "Biryani"
+      ],
+      "correct_answer": 0,
+      "difficulty": "moderate",
+      "category": "food"
+    },
+    {
+      "id": "culture_031",
+      "question_ar": "من هو الشاعر السوري الملقب بـ 'شاعر المرأة'؟",
+      "question_en": "Who is the Syrian poet known as 'Poet of Women'?",
+      "options_ar": [
+        "نزار قباني",
+        "بدوي الجبل",
+        "سليمان العيسى",
+        "عمر أبو ريشة"
+      ],
+      "options_en": [
+        "Nizar Qabbani",
+        "Badawi al-Jabal",
+        "Sulayman al-Issa",
+        "Omar Abu Risha"
+      ],
+      "correct_answer": 0,
+      "difficulty": "easy",
+      "category": "literature"
+    },
+    {
+      "id": "culture_032",
+      "question_ar": "ما اسم المشروب السوري المصنوع من التمر الهندي؟",
+      "question_en": "What is the name of the Syrian drink made from tamarind?",
+      "options_ar": [
+        "التمر هندي",
+        "الجلاب",
+        "قمر الدين",
+        "العرق سوس"
+      ],
+      "options_en": [
+        "Tamarind Juice",
+        "Jallab",
+        "Qamar al-Din",
+        "Licorice"
+      ],
+      "correct_answer": 0,
+      "difficulty": "easy",
+      "category": "food"
+    },
+    {
+      "id": "culture_033",
+      "question_ar": "من هي الممثلة السورية التي قدمت دور 'عبير' في مسلسل 'باب الحارة'؟",
+      "question_en": "Who is the Syrian actress who played 'Abeer' in 'Bab Al-Hara'?",
+      "options_ar": [
+        "رشا رزق",
+        "سلافة معمار",
+        "قمر خلف",
+        "كندة علوش"
+      ],
+      "options_en": [
+        "Rasha Rizk",
+        "Sulafa Memar",
+        "Qamar Khalaf",
+        "Kinda Alloush"
+      ],
+      "correct_answer": 0,
+      "difficulty": "hard",
+      "category": "tv_shows"
+    },
+    {
+      "id": "culture_034",
+      "question_ar": "ما اسم الحلوى السورية المصنوعة من الجوز والعسل؟",
+      "question_en": "What is the name of the Syrian sweet made from walnuts and honey?",
+      "options_ar": [
+        "البقلاوة",
+        "الكنافة",
+        "المعمول",
+        "الزلابية"
+      ],
+      "options_en": [
+        "Baklava",
+        "Kunafa",
+        "Maamoul",
+        "Zalabia"
+      ],
+      "correct_answer": 0,
+      "difficulty": "easy",
+      "category": "food"
+    },
+    {
+      "id": "culture_035",
+      "question_ar": "من هو الروائي السوري الشهير الذي كتب 'بقايا صور'؟",
+      "question_en": "Who is the famous Syrian novelist who wrote 'Remnants of Images'?",
+      "options_ar": [
+        "حنا مينة",
+        "غادة السمان",
+        "خيري الذهبي",
+        "حيدر حيدر"
+      ],
+      "options_en": [
+        "Hanna Mina",
+        "Ghada al-Samman",
+        "Khairi al-Dhahabi",
+        "Haidar Haidar"
+      ],
+      "correct_answer": 0,
+      "difficulty": "hard",
+      "category": "literature"
+    },
+    {
+      "id": "culture_036",
+      "question_ar": "ما اسم المعجنات السورية المقلية الحلوة؟",
+      "question_en": "What is the name of the fried sweet Syrian pastry?",
+      "options_ar": [
+        "العوامة",
+        "القطايف",
+        "الزلابية",
+        "المشبك"
+      ],
+      "options_en": [
+        "Awwameh",
+        "Qatayef",
+        "Zalabia",
+        "Mushabak"
+      ],
+      "correct_answer": 0,
+      "difficulty": "moderate",
+      "category": "food"
+    },
+    {
+      "id": "culture_037",
+      "question_ar": "من هو الشاعر السوري الملقب بـ 'شاعر الأطفال'؟",
+      "question_en": "Who is the Syrian poet known as 'Children's Poet'?",
+      "options_ar": [
+        "سليمان العيسى",
+        "نزار قباني",
+        "بدوي الجبل",
+        "محمد الماغوط"
+      ],
+      "options_en": [
+        "Sulayman al-Issa",
+        "Nizar Qabbani",
+        "Badawi al-Jabal",
+        "Muhammad al-Maghout"
+      ],
+      "correct_answer": 0,
+      "difficulty": "moderate",
+      "category": "literature"
+    },
+    {
+      "id": "culture_038",
+      "question_ar": "ما اسم الطبق السوري المكون من الفول المدمس؟",
+      "question_en": "What is the name of the Syrian dish made from fava beans?",
+      "options_ar": [
+        "الفول المدمس",
+        "الحمص",
+        "المسبحة",
+        "الفتة"
+      ],
+      "options_en": [
+        "Foul Mudammas",
+        "Hummus",
+        "Musabbaha",
+        "Fatteh"
+      ],
+      "correct_answer": 0,
+      "difficulty": "easy",
+      "category": "food"
+    },
+    {
+      "id": "culture_039",
+      "question_ar": "من هي الكاتبة السورية الشهيرة التي كتبت 'بيروت 75'؟",
+      "question_en": "Who is the famous Syrian writer who wrote 'Beirut 75'?",
+      "options_ar": [
+        "غادة السمان",
+        "كوليت خوري",
+        "ألفة الإدلبي",
+        "سمر يزبك"
+      ],
+      "options_en": [
+        "Ghada al-Samman",
+        "Colette Khoury",
+        "Ulfa Idlibi",
+        "Samar Yazbek"
+      ],
+      "correct_answer": 0,
+      "difficulty": "hard",
+      "category": "literature"
+    },
+    {
+      "id": "culture_040",
+      "question_ar": "ما اسم الحمام التقليدي السوري؟",
+      "question_en": "What is the name of the traditional Syrian bathhouse?",
+      "options_ar": [
+        "الحمام الشامي (التركي)",
+        "الساونا",
+        "الحمام المغربي",
+        "الجاكوزي"
+      ],
+      "options_en": [
+        "Hammam (Turkish Bath)",
+        "Sauna",
+        "Moroccan Bath",
+        "Jacuzzi"
+      ],
+      "correct_answer": 0,
+      "difficulty": "easy",
+      "category": "traditions"
+    },
+    {
+      "id": "culture_041",
+      "question_ar": "ما اسم السلطة السورية المصنوعة من البرغل والبقدونس؟",
+      "question_en": "What is the name of the Syrian salad made from bulgur and parsley?",
+      "options_ar": [
+        "التبولة",
+        "الفتوش",
+        "السلطة العربية",
+        "المتبل"
+      ],
+      "options_en": [
+        "Tabbouleh",
+        "Fattoush",
+        "Arabic Salad",
+        "Mutabbal"
+      ],
+      "correct_answer": 0,
+      "difficulty": "easy",
+      "category": "food"
+    },
+    {
+      "id": "culture_042",
+      "question_ar": "من هو المخرج السوري الراحل الذي أخرج مسلسل 'الحرير والقمر'؟",
+      "question_en": "Who is the late Syrian director who directed 'Silk and Moon'?",
+      "options_ar": [
+        "حاتم علي",
+        "نجدت أنزور",
+        "بسام الملا",
+        "هيثم حقي"
+      ],
+      "options_en": [
+        "Hatem Ali",
+        "Najdat Anzour",
+        "Bassam al-Mulla",
+        "Haitham Hakki"
+      ],
+      "correct_answer": 0,
+      "difficulty": "moderate",
+      "category": "tv_shows"
+    },
+    {
+      "id": "culture_043",
+      "question_ar": "ما اسم المقبلات السورية المصنوعة من الحمص المهروس؟",
+      "question_en": "What is the name of the Syrian appetizer made from mashed chickpeas?",
+      "options_ar": [
+        "الحمص",
+        "المتبل",
+        "البابا غنوج",
+        "المحمرة"
+      ],
+      "options_en": [
+        "Hummus",
+        "Mutabbal",
+        "Baba Ghanoush",
+        "Muhammara"
+      ],
+      "correct_answer": 0,
+      "difficulty": "easy",
+      "category": "food"
+    },
+    {
+      "id": "culture_044",
+      "question_ar": "من هو المطرب السوري الملقب بـ 'صقر الأغنية السورية'؟",
+      "question_en": "Who is the Syrian singer known as 'Falcon of Syrian Song'?",
+      "options_ar": [
+        "جورج وسوف",
+        "فهد بلان",
+        "عاصي الحلاني",
+        "وائل جسار"
+      ],
+      "options_en": [
+        "George Wassouf",
+        "Fahd Ballan",
+        "Assi El Hallani",
+        "Wael Jassar"
+      ],
+      "correct_answer": 0,
+      "difficulty": "moderate",
+      "category": "music"
+    },
+    {
+      "id": "culture_045",
+      "question_ar": "ما اسم التوابل السورية المشهورة المكونة من خليط البهارات؟",
+      "question_en": "What is the name of the famous Syrian spice mix?",
+      "options_ar": [
+        "البهارات السورية (السبع بهارات)",
+        "الكاري",
+        "الكمون",
+        "الكزبرة"
+      ],
+      "options_en": [
+        "Syrian Spice (Seven Spices)",
+        "Curry",
+        "Cumin",
+        "Coriander"
+      ],
+      "correct_answer": 0,
+      "difficulty": "moderate",
+      "category": "food"
+    },
+    {
+      "id": "culture_046",
+      "question_ar": "من هو الممثل السوري الذي قدم شخصية 'أبو شهاب' في 'باب الحارة'؟",
+      "question_en": "Who is the Syrian actor who played 'Abu Shehab' in 'Bab Al-Hara'?",
+      "options_ar": [
+        "سامر المصري",
+        "عباس النوري",
+        "أيمن زيدان",
+        "باسم ياخور"
+      ],
+      "options_en": [
+        "Samer Al-Masri",
+        "Abbas Al-Nouri",
+        "Ayman Zeidan",
+        "Basem Yakhour"
+      ],
+      "correct_answer": 0,
+      "difficulty": "moderate",
+      "category": "tv_shows"
+    },
+    {
+      "id": "culture_047",
+      "question_ar": "ما اسم المشروب السوري المصنوع من العرق سوس؟",
+      "question_en": "What is the name of the Syrian drink made from licorice?",
+      "options_ar": [
+        "العرق سوس",
+        "الجلاب",
+        "قمر الدين",
+        "التمر هندي"
+      ],
+      "options_en": [
+        "Licorice Drink",
+        "Jallab",
+        "Qamar al-Din",
+        "Tamarind"
+      ],
+      "correct_answer": 0,
+      "difficulty": "easy",
+      "category": "food"
+    },
+    {
+      "id": "culture_048",
+      "question_ar": "من هو الرسام السوري الشهير الذي رسم لوحات تصور الحياة الشامية؟",
+      "question_en": "Who is the famous Syrian painter who depicted Damascene life?",
+      "options_ar": [
+        "نعيم إسماعيل",
+        "لؤي كيالي",
+        "محمود حماد",
+        "فاتح المدرس"
+      ],
+      "options_en": [
+        "Naim Ismail",
+        "Louay Kayali",
+        "Mahmoud Hammad",
+        "Fateh al-Moudarres"
+      ],
+      "correct_answer": 0,
+      "difficulty": "hard",
+      "category": "art"
+    },
+    {
+      "id": "culture_049",
+      "question_ar": "ما اسم الطبق السوري المكون من اللحم والكرز؟",
+      "question_en": "What is the name of the Syrian dish made with meat and cherries?",
+      "options_ar": [
+        "كبة الكرز",
+        "الفريكة بالدجاج",
+        "المحاشي",
+        "اليخنة"
+      ],
+      "options_en": [
+        "Cherry Kibbeh",
+        "Freekeh with Chicken",
+        "Mahashi",
+        "Stew"
+      ],
+      "correct_answer": 0,
+      "difficulty": "moderate",
+      "category": "food"
+    },
+    {
+      "id": "culture_050",
+      "question_ar": "من هو الممثل الكوميدي السوري الذي قدم شخصية 'زهير رمضان'؟",
+      "question_en": "Who is the Syrian comedian who played the character 'Zuhair Ramadan'?",
+      "options_ar": [
+        "محمد خير الجراح",
+        "ياسر العظمة",
+        "دريد لحام",
+        "فارس الحلو"
+      ],
+      "options_en": [
+        "Mohammad Kheir al-Jarrah",
+        "Yasser Al-Azma",
+        "Duraid Lahham",
+        "Fares al-Helou"
+      ],
+      "correct_answer": 0,
+      "difficulty": "hard",
+      "category": "tv_shows"
     }
   ]
 }
