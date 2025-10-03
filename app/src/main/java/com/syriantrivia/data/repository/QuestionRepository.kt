@@ -17,14 +17,34 @@ class QuestionRepository @Inject constructor(
     @ApplicationContext private val context: Context,
     private val questionDao: QuestionDao
 ) {
+    companion object {
+        private const val PREFS_NAME = "question_prefs"
+        private const val KEY_QUESTIONS_VERSION = "questions_version"
+        private const val CURRENT_QUESTIONS_VERSION = 2 // Increment this when adding new questions
+    }
+
     private var isInitialized = false
 
     suspend fun initializeDatabase() {
         withContext(Dispatchers.IO) {
-            if (!isInitialized && questionDao.getQuestionCount() == 0) {
+            val prefs = context.getSharedPreferences(PREFS_NAME, Context.MODE_PRIVATE)
+            val savedVersion = prefs.getInt(KEY_QUESTIONS_VERSION, 0)
+
+            // Reload questions if:
+            // 1. Database is empty OR
+            // 2. Questions version has changed
+            if (!isInitialized && (questionDao.getQuestionCount() == 0 || savedVersion < CURRENT_QUESTIONS_VERSION)) {
+                // Clear old questions if version changed
+                if (savedVersion < CURRENT_QUESTIONS_VERSION && questionDao.getQuestionCount() > 0) {
+                    questionDao.deleteAll()
+                }
+
                 val jsonParser = JsonParser(context)
                 val questions = jsonParser.parseQuestions()
                 questionDao.insertAll(questions)
+
+                // Save current version
+                prefs.edit().putInt(KEY_QUESTIONS_VERSION, CURRENT_QUESTIONS_VERSION).apply()
                 isInitialized = true
             }
         }
