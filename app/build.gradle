@@ -3,7 +3,6 @@ plugins {
     alias(libs.plugins.kotlin.android)
     alias(libs.plugins.kotlin.serialization)
     alias(libs.plugins.hilt.android)
-    id 'kotlin-kapt'
     alias(libs.plugins.ksp)
 }
 
@@ -82,7 +81,7 @@ dependencies {
 
     // Hilt
     implementation libs.hilt.android
-    kapt libs.hilt.android.compiler
+    ksp libs.hilt.android.compiler
     implementation libs.hilt.navigation.compose
 
     // Room
