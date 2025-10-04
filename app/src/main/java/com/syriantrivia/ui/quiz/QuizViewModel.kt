@@ -23,7 +23,9 @@ data class QuizUiState(
     val score: Int = 0,
     val isLoading: Boolean = true,
     val error: String? = null,
-    val isQuizComplete: Boolean = false
+    val isQuizComplete: Boolean = false,
+    val shuffledOptions: List<String> = emptyList(),
+    val correctAnswerIndex: Int = 0
 )
 
 @HiltViewModel
@@ -59,11 +61,16 @@ class QuizViewModel @Inject constructor(
                 // show all questions in random order
                 questions = allQuestions.shuffled()
 
+                val firstQuestion = questions.firstOrNull()
+                val (shuffledOpts, correctIdx) = shuffleOptionsWithCorrectAnswer(firstQuestion)
+
                 _uiState.value = _uiState.value.copy(
-                    currentQuestion = questions.firstOrNull(),
+                    currentQuestion = firstQuestion,
                     currentQuestionIndex = 0,
                     totalQuestions = questions.size,
-                    isLoading = false
+                    isLoading = false,
+                    shuffledOptions = shuffledOpts,
+                    correctAnswerIndex = correctIdx
                 )
             } catch (e: Exception) {
                 _uiState.value = _uiState.value.copy(
@@ -76,9 +83,9 @@ class QuizViewModel @Inject constructor(
 
     fun selectAnswer(answerIndex: Int) {
         val currentState = _uiState.value
-        val currentQuestion = currentState.currentQuestion ?: return
+        if (currentState.currentQuestion == null) return
 
-        val isCorrect = answerIndex == currentQuestion.correctAnswer
+        val isCorrect = answerIndex == currentState.correctAnswerIndex
         val newScore = if (isCorrect) currentState.score + 1 else currentState.score
 
         _uiState.value = currentState.copy(
@@ -97,11 +104,16 @@ class QuizViewModel @Inject constructor(
             return
         }
 
+        val nextQuestion = questions.getOrNull(nextIndex)
+        val (shuffledOpts, correctIdx) = shuffleOptionsWithCorrectAnswer(nextQuestion)
+
         _uiState.value = currentState.copy(
-            currentQuestion = questions.getOrNull(nextIndex),
+            currentQuestion = nextQuestion,
             currentQuestionIndex = nextIndex,
             selectedAnswer = null,
-            isAnswerCorrect = null
+            isAnswerCorrect = null,
+            shuffledOptions = shuffledOpts,
+            correctAnswerIndex = correctIdx
         )
     }
 
@@ -110,12 +122,26 @@ class QuizViewModel @Inject constructor(
     }
 
     fun getOptions(): List<String> {
-        return _uiState.value.currentQuestion?.getOptions(isArabic) ?: emptyList()
+        return _uiState.value.shuffledOptions
     }
 
     fun getCorrectAnswerText(): String {
-        val question = _uiState.value.currentQuestion ?: return ""
-        val options = getOptions()
-        return options.getOrNull(question.correctAnswer) ?: ""
+        val options = _uiState.value.shuffledOptions
+        return options.getOrNull(_uiState.value.correctAnswerIndex) ?: ""
+    }
+
+    private fun shuffleOptionsWithCorrectAnswer(question: Question?): Pair<List<String>, Int> {
+        if (question == null) return Pair(emptyList(), 0)
+
+        val options = question.getOptions(isArabic)
+        val correctAnswerText = options.getOrNull(question.correctAnswer) ?: return Pair(options, 0)
+
+        // Shuffle options
+        val shuffledOptions = options.shuffled()
+
+        // Find new index of correct answer
+        val newCorrectIndex = shuffledOptions.indexOf(correctAnswerText)
+
+        return Pair(shuffledOptions, newCorrectIndex)
     }
 }
