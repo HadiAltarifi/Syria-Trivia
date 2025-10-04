@@ -20,7 +20,7 @@ class QuestionRepository @Inject constructor(
     companion object {
         private const val PREFS_NAME = "question_prefs"
         private const val KEY_QUESTIONS_VERSION = "questions_version"
-        private const val CURRENT_QUESTIONS_VERSION = 2 // Increment this when adding new questions
+        private const val CURRENT_QUESTIONS_VERSION = 3 // Increment this when adding new questions
     }
 
     private var isInitialized = false
